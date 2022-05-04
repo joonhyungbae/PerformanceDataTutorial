@@ -15,6 +15,7 @@ python = 3.9,
 wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 bash Anaconda3-2021.11-Linux-x86_64.sh
 sudo apt update && upgrade
+sudo apt-get install git 
 sudo apt install python3-pip
 conda create -n pdt_py39 python==3.9
 python -m ipykernel install —user —name pdt_py39
@@ -55,7 +56,6 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 # Clone this Repository
 git clone https://github.com/joonhyungbae/PerformanceDataTutorial.git
 cd PerformanceDataTutorial
-code .
 ```
 
 ### Coverage
