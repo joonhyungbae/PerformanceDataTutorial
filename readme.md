@@ -8,7 +8,7 @@ Also aims to supply useful python & matplotlib (drawing) examples
 
 ### Installation
 We recommend to use
-python > 3.7, 
+python = 3.9, 
 [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html),
 [jupytext](https://jupytext.readthedocs.io/en/latest/install.html)
 
