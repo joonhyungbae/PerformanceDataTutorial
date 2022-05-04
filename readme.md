@@ -1,20 +1,21 @@
 # PerformanceDataTutorial
 
-======================
-
 ### musicxml & performance midi alignment tutorial
 Also aims to supply useful python & matplotlib (drawing) examples
 
-
 ### Installation
 We recommend to use
-[Ubuntu 20.04](https://releases.ubuntu.com/20.04/) or [Ubuntu 20.04 WSL on Windows11](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
+[Ubuntu 20.04](https://releases.ubuntu.com/20.04/) or [Ubuntu 20.04 WSL on Windows11](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview),
 python = 3.9, 
 [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html),
 [jupytext](https://jupytext.readthedocs.io/en/latest/install.html)
 
 ```
 # Setting Conda Environment
+wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+bash Anaconda3-2021.11-Linux-x86_64.sh
+sudo apt update && upgrade
+sudo apt install python3-pip
 conda create -n pdt_py39 python==3.9
 python -m ipykernel install —user —name pdt_py39
 conda activate pdt_py39
@@ -48,6 +49,8 @@ cd ..
 
 # Install Packages
 pip install numpy randomname pretty_midi matplotlib pandas tqdm pyyaml music21
+conda install pandas scikit-learn matplotlib jupyter jupyterlab jupytext
+conda install -c conda-forge jupyter_contrib_nbextensions
 
 # Clone this Repository
 git clone https://github.com/joonhyungbae/PerformanceDataTutorial.git
