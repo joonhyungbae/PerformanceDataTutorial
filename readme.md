@@ -13,6 +13,10 @@ python = 3.9,
 [jupytext](https://jupytext.readthedocs.io/en/latest/install.html)
 
 ```
+# Setting Conda Environment
+conda create -n pdt_py39 python==3.9
+python -m ipykernel install —user —name pdt_py39
+conda activate pdt_py39
 
 # Install musicxml_parser
 git clone https://github.com/mac-marg-pianist/musicXML_parser.git
@@ -40,6 +44,9 @@ unzip AlignmentTool_v220127.zip
 cd AlignmentTool
 ./compile.sh
 cd ..
+
+# Install Packages
+pip install numpy randomname pretty_midi matplotlib pandas tqdm pyyaml music21
 
 # Clone this Repository
 git clone https://github.com/joonhyungbae/PerformanceDataTutorial.git
