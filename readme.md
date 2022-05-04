@@ -14,25 +14,25 @@ python = 3.9,
 
 ```
 
-# install musicxml_parser
+# Install musicxml_parser
 git clone https://github.com/mac-marg-pianist/musicXML_parser.git
 cd musicXML_parser
 pip install -e .
 cd ..
 
-# install midi_utils
+# Install midi_utils
 git clone https://github.com/mac-marg-pianist/midi_utils.git
 cd midi_utils
 pip install -e .
 cd ..
 
-# install pyScoreParser
+# Install pyScoreParser
 git clone https://github.com/TaegyunKwon/pyScoreParser.git
 cd pyScoreParser
 pip install -e .
 cd ..
 
-# install AlignmentTool from https://midialignment.github.io/demo.html
+# Install AlignmentTool from https://midialignment.github.io/demo.html
 # and compile
 wget https://midialignment.github.io/AlignmentTool_v220127.zip
 sudo apt install unzip
@@ -40,6 +40,9 @@ unzip AlignmentTool_v220127.zip
 cd AlignmentTool
 ./compile.sh
 cd ..
+
+# Clone this Repository
+git clone https://github.com/joonhyungbae/PerformanceDataTutorial.git
 ```
 
 ### Coverage
