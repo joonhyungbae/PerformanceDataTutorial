@@ -35,6 +35,7 @@ cd ..
 # install AlignmentTool from https://midialignment.github.io/demo.html
 # and compile
 wget https://midialignment.github.io/AlignmentTool_v220127.zip
+sudo apt install unzip
 unzip AlignmentTool_v220127.zip
 cd AlignmentTool
 ./compile.sh
