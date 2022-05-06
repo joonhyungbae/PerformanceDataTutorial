@@ -18,7 +18,7 @@ sudo apt update && upgrade
 sudo apt-get install git 
 sudo apt install python3-pip
 conda create -n pdt_py39 python==3.9
-python -m ipykernel install —user —name pdt_py39
+python -m ipykernel install --user --name pdt_py39
 conda activate pdt_py39
 
 # Install musicxml_parser
